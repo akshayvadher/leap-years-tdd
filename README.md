@@ -33,3 +33,10 @@ As a user, I want to know if a year is a leap year, So that I can plan for an ex
 Or 
 
 In your favourite IDE
+
+## TDD steps
+Check all the commits for each step
+
+1. Start by reading req, and start with first
+2. Create test case for that. 
+3. Since there is no class to execute the logic, create class and empty method for execution
