@@ -42,5 +42,5 @@ Check all the commits for each step
 3. Since there is no class to execute the logic, create class and empty method for execution. Make the project compile even if the test case fails as there is no logic written.
 4. Write logic for divisible by 400 and pass the test case.
 5. Write the test case for 2nd step. Even if it fails. Interestingly it passes without any change in logic.  
-
+6. There is scope for optimisation as leapYearCalculator object initialisation is at multiple places. Also since we want to test with multiple arguments, change to parameterised test.
 
