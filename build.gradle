@@ -31,4 +31,17 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
+    finalizedBy jacocoTestCoverageVerification
+}
+
+jacocoTestCoverageVerification {
+    violationRules {
+        rule {
+            limit {
+                // code coverage min requirement
+                minimum = 0.8
+            }
+        }
+    }
 }
