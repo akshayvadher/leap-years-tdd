@@ -46,5 +46,6 @@ Check all the commits for each step
 7. Add the proper logic even if test case is passed, as it may help later and help us properly understand code. 
 8. Write failing test case for "All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)" - step 3
 9. For step 3, write the logic and write few other parameters for testing. 
+10. Write test case for step 4. Same as step 2 this passes without any logic addition. 
 
 
