@@ -60,4 +60,8 @@ Check all the commits for each step
 15. The test case does not compile because we didn't implement class. So implement class, but since it is just improvment of Gregorian calendar, extend the class. The test case fails as we didn't write the logic yet.
 16. Add logic to pass test case for improved Gregorian Calendar.
 17. Add a test in Gregorian Calendar to check that the default Gregorian Calendar is not improved one.
+18. We don't want to test everything what Gregorian supports in improved so just check that the improved class is subclass of Gregorian
+    - if for any reason this cannot be checked then we may need to check every test case from Gregorian Calendar to improved one
+
+
 
