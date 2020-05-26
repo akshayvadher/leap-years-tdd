@@ -2,6 +2,10 @@ public class LeapYearCalculatorForImprovedGregorianCalendar extends LeapYearCalc
 
     @Override
     public boolean isLeapYear(int year) {
-        return super.isLeapYear(year);
+        if (year % 4000 == 0) {
+            return false;
+        } else {
+            return super.isLeapYear(year);
+        }
     }
 }
