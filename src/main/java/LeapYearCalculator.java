@@ -1,18 +1,17 @@
 public class LeapYearCalculator {
 
     public boolean isLeapYear(int year) {
-        if (year % 400 == 0) {
-            return true;
-        }
-        if (year % 100 == 0 && year % 400 != 0) {
-            return false;
-        }
-        if (year % 4 == 0 && year % 100 != 0) {
-            return true;
-        }
+        boolean leapYear = false;
+
         if (year % 4 != 0) {
-            return false;
+            leapYear = false;
+        } else if (year % 100 != 0) {
+            leapYear = true;
+        } else if (year % 400 != 0) {
+            leapYear = false;
+        } else if (year % 400 == 0) {
+            leapYear = true;
         }
-        return false;
+        return leapYear;
     }
 }

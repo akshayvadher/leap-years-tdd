@@ -48,5 +48,7 @@ Check all the commits for each step
 9. For step 3, write the logic and write few other parameters for testing. 
 10. Write test case for step 4. Same as step 2 this passes without any logic addition. 
 11. Still Write the logic and add more parameter to test.
-
+12. Optimise it
+    - Since we are checking the thing multiple times, instead of multiple `if` we can have `if` and `else if`
+    - There are redundant checks like `year % 400 == 0` and `year % 100 == 0 && year % 400 != 0`, as we already checked `% 400` then there is no need to check in `else`
 
