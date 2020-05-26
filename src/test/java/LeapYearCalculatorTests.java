@@ -39,7 +39,7 @@ public class LeapYearCalculatorTests {
 
     @DisplayName("All years not divisible by 4 are NOT leap years (e.g. 2017, 2018, 2019)")
     @ParameterizedTest
-    @ValueSource(ints = {2017})
+    @ValueSource(ints = {2017, 2018, 2019})
     public void test_that_years_divisible_by_4_are_not_leap_years(int year) {
         assertFalse(leapYearCalculator.isLeapYear(year));
     }
