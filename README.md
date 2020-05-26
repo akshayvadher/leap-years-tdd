@@ -39,4 +39,4 @@ Check all the commits for each step
 
 1. Start by reading req, and start with first
 2. Create test case for that. 
-3. Since there is no class to execute the logic, create class and empty method for execution
+3. Since there is no class to execute the logic, create class and empty method for execution. Make the project compile even if the test case fails as there is no logic written
