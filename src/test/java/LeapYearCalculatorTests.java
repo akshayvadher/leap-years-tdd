@@ -29,4 +29,12 @@ public class LeapYearCalculatorTests {
     public void test_that_years_divisible_by_100_but_not_400_are_not_leap_years(int year) {
         assertFalse(leapYearCalculator.isLeapYear(year));
     }
+
+    @DisplayName("All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)")
+    @ParameterizedTest
+    @ValueSource(ints = {2008})
+    public void test_that_years_divisible_by_4_but_not_100_are_leap_years(int year) {
+        assertTrue(leapYearCalculator.isLeapYear(year));
+    }
+
 }

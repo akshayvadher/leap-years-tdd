@@ -44,4 +44,5 @@ Check all the commits for each step
 5. Write the test case for 2nd step. Even if it fails. Interestingly it passes without any change in logic.  
 6. There is scope for optimisation as leapYearCalculator object initialisation is at multiple places. Also since we want to test with multiple arguments, change to parameterised test.
 7. Add the proper logic even if test case is passed, as it may help later and help us properly understand code. 
+8. Write failing test case for "All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)" - step 3
 
