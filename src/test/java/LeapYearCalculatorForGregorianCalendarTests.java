@@ -44,4 +44,11 @@ public class LeapYearCalculatorForGregorianCalendarTests {
         assertFalse(leapYearCalculatorForGregorianCalendar.isLeapYear(year));
     }
 
+    @DisplayName("Divisible by 4000 isa leap year")
+    @ParameterizedTest
+    @ValueSource(ints = {4000, 8000, 12000})
+    public void test_that_years_divisible_by_4000_are_leap_years(int year) {
+        assertTrue(leapYearCalculatorForGregorianCalendar.isLeapYear(year));
+    }
+
 }
