@@ -43,4 +43,5 @@ Check all the commits for each step
 4. Write logic for divisible by 400 and pass the test case.
 5. Write the test case for 2nd step. Even if it fails. Interestingly it passes without any change in logic.  
 6. There is scope for optimisation as leapYearCalculator object initialisation is at multiple places. Also since we want to test with multiple arguments, change to parameterised test.
+7. Add the proper logic even if test case is passed, as it may help later and help us properly understand code. 
 
