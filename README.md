@@ -55,3 +55,4 @@ Check all the commits for each step
     - Still, there are multiple `if` and `else` conditions
     - We can combine the branches returning `true` and don't calculate if it returns `false` because by default it anyways returns false
 
+13. Since, all the tests are for Gregorian Calendar, just renamed the variable.

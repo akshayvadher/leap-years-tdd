@@ -1,4 +1,4 @@
-public class LeapYearCalculator {
+public class LeapYearCalculatorForGregorianCalendar {
 
     public boolean isLeapYear(int year) {
         boolean leapYear = false;
