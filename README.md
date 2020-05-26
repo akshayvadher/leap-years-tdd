@@ -51,4 +51,7 @@ Check all the commits for each step
 12. Optimise it
     - Since we are checking the thing multiple times, instead of multiple `if` we can have `if` and `else if`
     - There are redundant checks like `year % 400 == 0` and `year % 100 == 0 && year % 400 != 0`, as we already checked `% 400` then there is no need to check in `else`
+12. Optimisation 2
+    - Still, there are multiple `if` and `else` conditions
+    - We can combine the branches returning `true` and don't calculate if it returns `false` because by default it anyways returns false
 
