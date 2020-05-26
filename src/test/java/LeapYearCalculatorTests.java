@@ -32,7 +32,7 @@ public class LeapYearCalculatorTests {
 
     @DisplayName("All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)")
     @ParameterizedTest
-    @ValueSource(ints = {2008})
+    @ValueSource(ints = {2008, 2012, 2016})
     public void test_that_years_divisible_by_4_but_not_100_are_leap_years(int year) {
         assertTrue(leapYearCalculator.isLeapYear(year));
     }
