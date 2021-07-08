@@ -1,4 +1,4 @@
-[![akshayat](https://circleci.com/gh/akshayat/leap-years-tdd.svg?style=svg)](https://app.circleci.com/pipelines/github/akshayat/leap-years-tdd)
+[![CircleCI](https://circleci.com/gh/akshayvadher/leap-years-tdd/tree/master.svg?style=svg)](https://circleci.com/gh/akshayvadher/leap-years-tdd/tree/master)
 
 # Leap Years TDD
 
